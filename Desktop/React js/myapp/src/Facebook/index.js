@@ -8,11 +8,11 @@ import { BrowserRouter,Routes,Route} from 'react-router-dom';
 // import About from "./About"
 // import Error from './Error';
 import Layout from './Layout';
-import Account from './Facebook/Account';
-import Application from './Facebook/Application';
-import Password from './Facebook/Password';
-import Security from './Facebook/Security';
-import Notification from './Facebook/Notification';
+import Account from './Account';
+import Application from './Application';
+import Password from './Password';
+import Security from './Security';
+import Notification from './Notification';
 // import Fetch from './Fetch';
 // import App from './App';
 // import "./Components/Style.css"
