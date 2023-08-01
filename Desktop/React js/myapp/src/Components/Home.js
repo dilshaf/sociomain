@@ -15,12 +15,12 @@ function Home() {
     const getAllCategory = async ()=>{
         
         try {
-            setLoading(true)
-            successToast('Your logged in')
-            let response = await fetch('https://www.themealdb.com/api/json/v1/1/categories.php')  
-            let toConvetJSON = await response.json();
+          
+            let response = await fetch('https://www.themealdb.com/api/json/v1/1/categories.php')//API  
+            let toConvetJSON = await response.json();//convert to json //await=no repeat
             setAllCategories(toConvetJSON.categories)
             setLoading(false)
+            successToast('Your logged in')
             
         } catch (error) {
             setLoading(true)
@@ -47,7 +47,7 @@ function Home() {
            :
            <div className="Home">
                {
-                categories.map((items,index)=>{
+                categories?.map((items,index)=>{
                     return(
                         <div key={index}>
                             <CardUI data={items}/>

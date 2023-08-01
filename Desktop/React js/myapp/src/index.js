@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
-import Home from './Components/Home';
+import Home from './seach/Home';
 // import Details from './Details'
 // import Review from "./Review"
 // import About from "./About"
@@ -16,6 +16,7 @@ import Home from './Components/Home';
 // import Fetch from './Fetch';
 // import App from './App';
 import "./Components/Style.css"
+import "./seach/style.css";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -47,6 +48,7 @@ root.render(
     // <App/>
 
     <>
+    {/* <Home/> */}
     <Home/>
     <ToastContainer />
     </>
