@@ -1,0 +1,30 @@
+.Home1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+data{
+    border: 3px solid black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    box-shadow: 1px 4px 5px black;
+    border-radius: 1rem;
+}
+.color{
+    color: blue;
+}
+.color:hover{
+
+color: rgb(190, 41, 44);
+}
+.text{
+    color: blueviolet;
+}
+.text:hover{
+    color:rgb(240, 11, 171)
+}
+.head{
+    margin-left: 23rem;
+    font-style: italic;
+    color: #8a2be29e;
+}
