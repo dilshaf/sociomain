@@ -1,9 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter,Routes,Route} from 'react-router-dom';
-// import Home from './seach/Home';
-import Home1 from "./Components1/Home1"
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./seach/Home";
+// import Home1 from "./Components1/Home1"
 // import Details from './Details'
 // import Review from "./Review"
 // import About from "./About"
@@ -17,19 +17,27 @@ import Home1 from "./Components1/Home1"
 // import Fetch from './Fetch';
 // import App from './App';
 // import "./Components/Style.css
-// import "./seach/style.css";
+import "./seach/style.css";
 import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
+import Product from "./seach/Product";
 
-
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    
- 
-    // <BrowserRouter>
+  <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/product/:id" element={<Product />}></Route>
+      </Routes>
+    </BrowserRouter>
+
+    <ToastContainer />
+  </>
+);
+
+{
+  /* // <BrowserRouter>
     // <Routes>//similar to a link
     // <Route path="/" element={<Layout/>}>
 
@@ -45,16 +53,17 @@ root.render(
        
         
     // </Routes>
-    // </BrowserRouter>
-    // <App/>
+    // </BrowserRouter> */
+}
 
-    <>
-    {/* <Home/> */}
-    {/* <Home/> */}
-    <Home1/>
-    <ToastContainer />
-    </>
- 
-);
+{
+  /* // <App/> */
+}
 
+{
+  /* <Home/> */
+}
 
+{
+  /* <Home1/> */
+}
