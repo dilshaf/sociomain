@@ -10,8 +10,9 @@ import { Skills } from './Components/Skills';
 import {Projects} from "./Components/Projects"
 import { Contact } from './Components/Contact';
 import { Footer } from './Components/Footer';
-// import { MailchimpForm } from './Components/MailchimpForm';        
-// import ContactForm from './Components/Contactform';
+import Contactform1 from "./Components/Contactform1"
+
+
 
 
 
@@ -23,7 +24,8 @@ function App() {
      <Banner/>
      <Skills/>
      <Projects/>
-     <Contact/>
+     <Contactform1/>
+     {/* <div dangerouslySetInnerHTML={{ __html: Contactform }} /> */}
      {/* <MailchimpForm/> */}
      <Footer/>
      

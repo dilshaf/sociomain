@@ -7,6 +7,7 @@ import images from "./images.png"
 import github from "./github.png"
 import hackerrank from "./hackerrank.png"
 import linkedin from "./linkedin.png"
+import cv from "./cv.jpg"
 
 // import navIcon1 from "./nav-icon1.svg"
 // import navIcon2 from "./nav-icon2.svg"
@@ -55,7 +56,8 @@ function NavBar() {
                 <a href='https://www.hackerrank.com/dilshadilu4953'><img src={hackerrank} alt="" className='git'/></a>
 
             </div>
-            <button className='vvd' onClick={()=>console.log('connect')}><span>Let's connect</span></button>
+            <a href={cv} download=""><button className='vvd' ><span>Download CV</span></button></a>
+            
          </span>
         </Navbar.Collapse>
       </Container>
