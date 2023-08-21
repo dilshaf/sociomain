@@ -11,6 +11,8 @@ import {Projects} from "./Components/Projects"
 import { Contact } from './Components/Contact';
 import { Footer } from './Components/Footer';
 import Contactform1 from "./Components/Contactform1"
+// import { BrowserRouter,Route,Routes,Link } from "react-router-dom";  
+import {Additionalprojects} from './Components/Additionalprojects'
 
 
 
@@ -24,7 +26,10 @@ function App() {
      <Banner/>
      <Skills/>
      <Projects/>
+     <Additionalprojects/>
+   
      <Contactform1/>
+    
      {/* <div dangerouslySetInnerHTML={{ __html: Contactform }} /> */}
      {/* <MailchimpForm/> */}
      <Footer/>

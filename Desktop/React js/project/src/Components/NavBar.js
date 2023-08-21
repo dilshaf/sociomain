@@ -8,6 +8,8 @@ import github from "./github.png"
 import hackerrank from "./hackerrank.png"
 import linkedin from "./linkedin.png"
 import cv from "./cv.jpg"
+import {Link,Route,Routes,BrowserRouter} from "react-router-dom"
+
 
 // import navIcon1 from "./nav-icon1.svg"
 // import navIcon2 from "./nav-icon2.svg"
@@ -48,6 +50,7 @@ function NavBar() {
             <Nav.Link href="#home" className={activeLink==="home"?"navbar-link":"navbar-link"} onClick={()=>onUpdateActiveLink("home")}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==="skills"?"navbar-link":"navbar-link"} onClick={()=>onUpdateActiveLink("skills")}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink==="projects"?"navbar-link":"navbar-link"} onClick={()=>onUpdateActiveLink("projects")}>Projects</Nav.Link>
+            <Nav.Link href="#additonalprojects" className={activeLink==="additonalprojects"?"navbar-link":"navbar-link"} onClick={()=>onUpdateActiveLink("additonalprojects")}>Additional Projects</Nav.Link>
          </Nav>
          <span className='navbar-text'>
             <div className='social-icon'>
@@ -57,6 +60,7 @@ function NavBar() {
 
             </div>
             <a href={cv} download=""><button className='vvd' ><span>Download CV</span></button></a>
+           
             
          </span>
         </Navbar.Collapse>
