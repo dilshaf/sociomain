@@ -71,6 +71,14 @@
           padding: 0 150px;
       }
   }
+  @media(max-width:460px){
+    .row{
+      width:100%
+    }
+    .Name1,.email{
+      width: 12rem;
+    }
+  }
   
   p.success {
       color: green;

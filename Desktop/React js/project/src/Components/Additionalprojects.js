@@ -10,6 +10,7 @@ import html3 from "./html3.svg"
 import css3 from "./css3.png"
 import download from "./download.png"
 import react from "./react.png"
+import devkit from "./devkit.png"
 
 export const Additionalprojects = () => {
   const responsive = {
