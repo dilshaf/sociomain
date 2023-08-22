@@ -37,7 +37,7 @@ function Contactform1() {
             {/* <div className="side"> */}
               {/* <h1>Get In Touch</h1> */}
               <form ref={form} onSubmit={sendEmail}>
-                <div className="nf">
+                <div className="nf" >
                   <Col size={12} sm={6} className="px-1">
                     <input
                       type="text"
@@ -46,7 +46,7 @@ function Contactform1() {
                       placeholder="First Name"
                     />
                   </Col>
-                  <Col size={12} sm={6} md={6} mb-3 className="px-1">
+                  <Col size={12} sm={6} md={6} mb-3 className="px-1 ">
                     <input
                       type="text"
                       name="name"

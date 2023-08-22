@@ -141,13 +141,33 @@
   }
   .nf{
     display: flex;
+    flex-wrap: wrap;
   }
   .ng{
     display: flex;
+    flex-wrap: wrap;
   }
   @media (min-width:1700px) {
     .fl{
         max-width: 100%;
         padding: 0 150px;
     }
+}
+@media (max-width:436px){
+  .nf{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Name1{
+    margin-top: 1rem;
+  }
+  .navbar navbar-expand-lg navbar-light{
+    width:84%
+  }
+  
+}
+@media(max-width:1006){
+  .navbar navbar-expand-lg navbar-light{
+    width: 87%;
+  }
 }

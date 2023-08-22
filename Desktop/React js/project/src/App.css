@@ -71,13 +71,21 @@
           padding: 0 150px;
       }
   }
-  @media(max-width:460px){
+  @media(max-width:1006){
+    .navbar navbar-expand-lg navbar-light{
+      width: 87%;
+    }
+  }
+  @media(max-width:330px){
     .row{
       width:100%
     }
     .Name1,.email{
-      width: 12rem;
+      /* width: 12rem; */
+      margin-top: 1rem;
+      flex-wrap: wrap;
     }
+    
   }
   
   p.success {
@@ -275,6 +283,11 @@
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+@media(min-width:393){
+  .banner p{
+    font-size: 14px;
+  }
 }
 .banner button {
   color: #fff;
