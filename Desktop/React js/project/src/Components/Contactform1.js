@@ -82,7 +82,7 @@ function Contactform1() {
                   />
                   <br></br>
                 </Col>
-                <button type="submit" className="button">
+                <button type="submit" className="button" >
                   Submit
                 </button>
               </form>
