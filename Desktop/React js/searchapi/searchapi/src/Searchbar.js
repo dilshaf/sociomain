@@ -4,6 +4,7 @@ import { searchCategories } from './api';
 function SearchBox({updateState}) {
     
     const [searchedValue,setSerachedValue] = useState('');
+   
 
 
     const handleSearch = event=> {
