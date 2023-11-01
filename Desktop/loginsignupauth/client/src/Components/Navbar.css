@@ -1,0 +1,19 @@
+.navbar{
+    border: 1px solid beige;
+    background-color: aliceblue;
+}
+.reg{
+        /* list-style: none; */
+        border: 1px solid black;
+        /* list-style-type: none; */
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: darkblue;
+        color: white;
+}
+.head{
+     
+        color: cadetblue;
+        font-weight: 800;
+}
